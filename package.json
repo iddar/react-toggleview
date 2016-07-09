@@ -4,7 +4,7 @@
   "description": "Basic component to toggle display",
   "main": "index.js",
   "scripts": {
-    "build": "babel module.js -o index.js",
+    "build": "babel src/index.js -o index.js",
     "prepublish": "npm run build",
     "test": "echo \"no test\""
   },
