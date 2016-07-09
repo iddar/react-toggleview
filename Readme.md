@@ -11,6 +11,8 @@ $ npm install iddar/react-toggleview
 ## Example
 
 ```js
+import ToggleView from 'react-toggleview'
+
 <ToggleView show={this.state.show}>
   <p>This is a toggle component.</p>
 </ToggleView>
