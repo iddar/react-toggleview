@@ -1,0 +1,38 @@
+{
+  "name": "react-toggleview",
+  "version": "1.0.0",
+  "description": "Basic component to toggle display",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel module.js -o index.js",
+    "prepublish": "npm run build",
+    "test": "echo \"no test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iddar/react-toggleview.git"
+  },
+  "keywords": [
+    "toggle",
+    "react",
+    "hide",
+    "show",
+    "component"
+  ],
+  "author": "iddar olivares <iddar@dbug.mx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iddar/react-toggleview/issues"
+  },
+  "homepage": "https://github.com/iddar/react-toggleview#readme",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
